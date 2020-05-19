@@ -1,4 +1,4 @@
-# switch-lan-play-client-web-ui
+# switch-lan-play-client-web-ui traduit en FR
 
 Deploy on raspberry pi or other liunx devices
 

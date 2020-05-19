@@ -67,7 +67,7 @@
                             S: a.getMilliseconds()
                         };
                         /(y+)/.test(t) && (t = t.replace(RegExp.$1, (a.getFullYear() + "").substr(4 - RegExp.$1.length)));
-                        /(E+)/.test(t) && (t = t.replace(RegExp.$1, (RegExp.$1.length > 1 ? RegExp.$1.length > 2 ? "\u661f\u671f" : "\u5468" : "") + {
+                        /(E+)/.test(t) && (t = t.replace(RegExp.$1, (RegExp.$1.length > 1 ? RegExp.$1.length > 2 ? "Semaine" : "\u5468" : "") + {
                                     0: "\u65e5",
                                     1: "\u4e00",
                                     2: "\u4e8c",
